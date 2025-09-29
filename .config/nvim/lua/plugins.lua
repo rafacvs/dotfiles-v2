@@ -122,6 +122,9 @@ return {
 
       local opts_override = vim.tbl_deep_extend("force", opts or {}, {
         defaults = {
+          file_ignore_patterns = {
+            ".git"
+          },
           layout_strategy = "horizontal",
           layout_config = {
             horizontal = {
