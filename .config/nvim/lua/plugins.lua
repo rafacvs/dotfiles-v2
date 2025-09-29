@@ -146,6 +146,9 @@ return {
           lsp_references = {
             initial_mode = "normal",
           },
+          find_files = {
+            hidden = true
+          }
         },
       })
 
